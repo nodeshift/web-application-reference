@@ -36,7 +36,7 @@ The `team` consists of engineers from across groups within IBM and Red Hat who:
 - The Web Application Reference focusses on the front-end, the existing [Node.js Reference
   Architecture](https://github.com/nodeshift/nodejs-reference-architecture)
   is the corresponding reference with a focus on the back-end.
-  
+
 ## Outline
 
 1. Design
@@ -48,11 +48,10 @@ The `team` consists of engineers from across groups within IBM and Red Hat who:
 1. Internationalization
 1. Observability
 1. Accessibility
-1. Performance 
+1. Performance
 
 ## Contributing
 
 To Contribute to this project, please see the [Contributing Guide](./CONTRIBUTING.md).
 
 ## Contributors
-
