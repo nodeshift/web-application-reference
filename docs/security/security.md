@@ -1,7 +1,7 @@
 # Security
 
 ## Overview
-Security is strongest from conscious design at the outset, rather than retroactively trying to fill gaps after a solution has been built. In this respect, security should be considered at every stage of the applications lifecycle.
+Security is strongest from conscious design at the outset, rather than retroactively filling gaps after a solution has been built. In this respect, security should be considered at every stage of the application's lifecycle. IBM & RedHat call this practice [Security and Privacy by Design (SPbD)](https://www.redbooks.ibm.com/abstracts/redp4641.html) and recommend it for all systems, including web applications.
 
 A [threat model](https://www.ibm.com/garage/method/practices/code/threat-modeling/) should be considered based on the attack surface that the Web Application creates. A public-facing web application for highly confidential personal data will have a very different threat model to an internal web application that doesn't contain sensitive data nor control anything of value.
 
