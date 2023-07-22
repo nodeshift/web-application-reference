@@ -33,7 +33,7 @@ The `team` consists of engineers from across groups within IBM and Red Hat who:
 - Whenever possible components should have been validated at scale within the `team's`
   JavaScript/Node.js deployments or in engagements with our customers.
 - We need to consider licensing and other due diligence when mentioning components.
-- The Web Application Reference focusses on the front-end, the existing [Node.js Reference
+- The Web Application Reference focuses on the front-end, the existing [Node.js Reference
   Architecture](https://github.com/nodeshift/nodejs-reference-architecture)
   is the corresponding reference with a focus on the back-end.
 
@@ -55,3 +55,4 @@ The `team` consists of engineers from across groups within IBM and Red Hat who:
 To Contribute to this project, please see the [Contributing Guide](./CONTRIBUTING.md).
 
 ## Contributors
+- David Sint - Senior Technical Consultant - IBM
