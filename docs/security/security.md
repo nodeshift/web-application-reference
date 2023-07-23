@@ -32,8 +32,20 @@ Further threat modeling resources:
 
 ### Coding Best Security Practices
 
-- Moving secrets to backend - secrets should not be exposed to the client-side
-- Bot detection - e.g. CAPTCHA
+#### Keeping Secrets Secure
+
+Web applications often need access to protected systems like databases, and third-party services. These systems usually use credentials like passwords and API keys for access management. These credentials should be kept secret and should not be exposed to unauthorised users or they will be able to steal and use the credentials to access the data or services. Since client-side code is exposed to users, even if the route is protected from some users, these credentials should not be sent to the client e.g. in client JavaScript.
+
+Instead, these secrets should be securely stored on a server, which should carry out necessary functionality on behalf of the client for example by fetching data from a database before writing it to the DOM, or returning the data in a specialised format like JSON or XML to the client. Since the user has no visibility to the internals of the server, the credentials can be kept out of reach from end-users.
+
+#### Bot Detection & Prevention
+
+If a web page contains user-submittable content, content that should not be easily copied, or content that uses a large amount of server compute, then we recommend considering applying a form of bot protection to prevent spam, web scraping, or unnecessarily expending compute. You should first consider if bots are intended to be able to access the web page's content, for example search engine crawlers. Pages like login or registration pages may be highly targeted, for example in credential stuffing attacks which look to try to see if previously leaked email and password combinations have been reused on other applications. For pages or actions that should be protected from bots, these are some of the mitigating tools to limit or prevent this kind of activity that the `team` have used:
+
+1. CAPTCHA services like [hCaptcha](https://www.hcaptcha.com/) or [reCAPTCHA](https://www.google.com/recaptcha/about/)
+1. Edge Bot Management Services like [Akamai Bot Manager](https://www.akamai.com/products/bot-manager) or [Cloudflare Bot Management](https://www.cloudflare.com/products/bot-management/)
+
+Rate limiting
 
 ### Encrypted Data & Traffic
 
