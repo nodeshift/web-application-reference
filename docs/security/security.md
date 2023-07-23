@@ -85,6 +85,8 @@ The following are response headers that the `team` use to protect web applicatio
 - `Referrer-Policy` to control what, if any information is included in the `Referer` header for network requests. This can also be set as a `meta` tag in the `head` of an HTML document, or within an anchor tag, however the `team` try to find the most scalable method e.g. including the policy as a header set by the web application framework. This policy can be more granular if required, like if some links require the `Referer` header for analytics or affiliate programmes.
 - `X-Content-Type-Options` to prevent MIME sniffing attacks and force the declared content type instead of allowing a browser to interpret it, leaving room for malicious manipulation. The `team` sets this to `nosniff`.
 
+When using a framework like Express, the `team` have benefited from using the [helmet.js](https://helmetjs.github.io/) library to add these headers to web applications.
+
 ### Secure Deployment
 
 Secure deployment has been introduced in the Node.js Reference Architecure section on [secure development processes](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/secure-development-process.md#maintaining-a-secure-and-up-to-date-foundation-for-deployed-applications)
