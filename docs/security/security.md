@@ -1,6 +1,7 @@
 # Security
 
 ## Overview
+
 Security is strongest from conscious design at the outset, rather than retroactively filling gaps after a solution has been built. In this respect, security should be considered at every stage of the application's lifecycle. IBM & RedHat call this practice [Security and Privacy by Design (SPbD)](https://www.redbooks.ibm.com/abstracts/redp4641.html) and recommend it for all systems, including web applications.
 
 This section focuses on the experiences the `team` have had when building web applications to defend against and mitigate security threats.
@@ -8,24 +9,29 @@ This section focuses on the experiences the `team` have had when building web ap
 ---
 
 ## Relevant Resources From [Node.js Reference Architecture](https://github.com/nodeshift/nodejs-reference-architecture)
+
 1. [Secure Development Process](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/secure-development-process.md#secure-development-process)
-2. [Cross Origin Communication](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/cross-origin.md)
+1. [Cross Origin Communication](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/cross-origin.md)
 
 ## Guidance
+
 Since security should feature in all components of the application life-cycle, the `team` have found it helpful to start with understanding an application's security landscape in a 'threat model'. This informs the practitioner with a prioritised list of threats as well as mitigations and methods of validation. The rest of this section includes examples of threats, mitigations, and tools that the `team` have found useful to consider.
 
 ### Threat Modeling
+
 A [threat model](https://www.ibm.com/garage/method/practices/code/threat-modeling/) should be considered based on the attack surface that the Web Application creates. A public-facing web application for highly confidential personal data of high-target public figures may have a very different threat model to an internal web application that doesn't contain sensitive data nor control anything of significant value.
 
 Depending on the resources available, a threat model can be as informal as simple conversations, to as detailed as a 'threat model workbook'. The workbook is a collection of documentats, diagrams and processes that evolves with the application over time to form an up-to-date threat model. In general, the higher the value of the application and its data, the greater the emphasis should be on having a more detailed threat model.
 
 When considering what can go wrong, the consensus of the most critical security risks is codified by the Open Worldwide Application Security Project (OWASP) in the [OWASP Top Ten](https://owasp.org/www-project-top-ten/). This is called a threat list, and is often the starting point for the `team` when considering attack vectors in a web application's threat model. However, the OWASP Top Ten is just one example of a threat list and indeed threat lists is just one method of threat detection. Each application should will differ and therefore other threat detection methods like the [STRIDE](https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model) categorisation model are also useful to consider.
 
-Further Threat modeling resources: 
+Further threat modeling resources:
+
 1. [OWASP Threat Modeling Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html)
-2. [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/)
+1. [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/)
 
 ### Coding Best Security Practices
+
 - Moving secrets to backend - secrets should not be exposed to the client-side
 - Bot detection - e.g. CAPTCHA
 
@@ -69,7 +75,7 @@ The following are response headers that the `team` use to protect web applicatio
 
 ### Secure Deployment
 
-- Do we need to copy https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/secure-development-process.md#maintaining-a-secure-and-up-to-date-foundation-for-deployed-applications?
+Secure deployment has been introduced in the Node.js Reference Architecure section on [secure development processes](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/secure-development-process.md#maintaining-a-secure-and-up-to-date-foundation-for-deployed-applications)
 
 ### Dependency Management
 
@@ -82,4 +88,4 @@ The following are response headers that the `team` use to protect web applicatio
 - Pen testing
 - Fuzzing
 - SAST/DAST
-- Active monitoring & incident response 
+- Active monitoring & incident response
