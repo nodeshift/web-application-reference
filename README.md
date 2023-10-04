@@ -72,21 +72,21 @@ The reference architecture covers the following components (currently a work in 
     - Routing
 - Development
   - Common Elements
-      - [Choosing and vetting dependencies](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/dependencies.md)
-      - [Static Assets](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/functional-components/static-assets.md)
-      - [Protecting Code](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/protecting-code.md)
-      - Code Quality
-        - [Code Consistency](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/code-consistency.md)
-        - [Testing](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/testing.md)
-        - [Code Coverage](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/code-coverage.md)
-        - [TypeScript](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/typescript.md)
-      - [Cross Origin Communication](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/cross-origin.md)
-      - [CI/CD](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/ci-cd.md)
-      - Npm
-        - [Npm Proxy / Internal Registries](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/npm-proxy.md)
-        - [Npm Publishing](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/npm-publishing.md)
-        - [Package Development](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/npm-package-development.md)
-      - [Secure Development Process](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/secure-development-process.md)
+    - [Choosing and vetting dependencies](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/dependencies.md)
+    - [Static Assets](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/functional-components/static-assets.md)
+    - [Protecting Code](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/protecting-code.md)
+    - Code Quality
+      - [Code Consistency](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/code-consistency.md)
+      - [Testing](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/testing.md)
+      - [Code Coverage](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/code-coverage.md)
+      - [TypeScript](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/typescript.md)
+    - [Cross Origin Communication](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/cross-origin.md)
+    - [CI/CD](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/ci-cd.md)
+    - Npm
+      - [Npm Proxy / Internal Registries](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/npm-proxy.md)
+      - [Npm Publishing](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/npm-publishing.md)
+      - [Package Development](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/npm-package-development.md)
+    - [Secure Development Process](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/secure-development-process.md)
 - Backend Development
   - [Typical Development Workflows](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/dev-flows.md)
   - [Kubernetes-based Development Environment](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/kubernetes-dev-environment.md)
@@ -94,36 +94,35 @@ The reference architecture covers the following components (currently a work in 
   - [Accessibility](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/accessibility.md)
   - [Serverless](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/serverless.md)
 - Front-end Development
-    - Typical Development Workflows
-    - Build tools
-    - Back end communication
-    - Styles
-    - Accessibility
-    - Project layout
-    - Rendering
-    - Performance
-    - Security
+  - Typical Development Workflows
+  - Build tools
+  - Back end communication
+  - Styles
+  - Accessibility
+  - Project layout
+  - Rendering
+  - Performance
+  - Security
 - Operations
   - Common
   - Back-end
     - Monitoring
-        - [Logging](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/operations/logging.md)
-        - [Metrics Collection](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/operations/metrics.md)
-        - [Health Checks](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/operations/healthchecks.md)
-        - [Distributed Tracing](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/operations/distributed-tracing.md)
-      - [Problem Determination](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/operations/problem-determination.md)
-      - [Failure Handling](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/operations/failurehandling.md)
+      - [Logging](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/operations/logging.md)
+      - [Metrics Collection](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/operations/metrics.md)
+      - [Health Checks](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/operations/healthchecks.md)
+      - [Distributed Tracing](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/operations/distributed-tracing.md)
+    - [Problem Determination](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/operations/problem-determination.md)
+    - [Failure Handling](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/operations/failurehandling.md)
   - Front-end
-      - Monitoring
-      - Logging
-      - Metrics Collection
-      - Health Checks
-      - Distributed Tracing
-      - Problem Determination
-      - Failure Handling
-      - Deployment
-      - Externalizing Environment variables
-
+    - Monitoring
+    - Logging
+    - Metrics Collection
+    - Health Checks
+    - Distributed Tracing
+    - Problem Determination
+    - Failure Handling
+    - Deployment
+    - Externalizing Environment variables
 
 ## Contributing
 
