@@ -87,22 +87,22 @@ The reference architecture covers the following components (currently a work in 
       - [Npm Publishing](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/npm-publishing.md)
       - [Package Development](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/npm-package-development.md)
     - [Secure Development Process](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/secure-development-process.md)
-- Backend Development
-  - [Typical Development Workflows](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/dev-flows.md)
-  - [Kubernetes-based Development Environment](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/kubernetes-dev-environment.md)
-  - [Building good containers](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/building-good-containers.md)
-  - [Accessibility](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/accessibility.md)
-  - [Serverless](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/serverless.md)
-- Front-end Development
-  - Typical Development Workflows
-  - Build tools
-  - Back end communication
-  - Styles
-  - Accessibility
-  - Project layout
-  - Rendering
-  - Performance
-  - Security
+  - Backend Development
+    - [Typical Development Workflows](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/dev-flows.md)
+    - [Kubernetes-based Development Environment](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/kubernetes-dev-environment.md)
+    - [Building good containers](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/building-good-containers.md)
+    - [Accessibility](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/accessibility.md)
+    - [Serverless](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/serverless.md)
+  - Front-end Development
+    - Typical Development Workflows
+    - Build tools
+    - Back end communication
+    - Styles
+    - Accessibility
+    - Project layout
+    - Rendering
+    - Performance
+    - Security
 - Operations
   - Common
   - Back-end
@@ -115,10 +115,10 @@ The reference architecture covers the following components (currently a work in 
     - [Failure Handling](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/operations/failurehandling.md)
   - Front-end
     - Monitoring
-    - Logging
-    - Metrics Collection
-    - Health Checks
-    - Distributed Tracing
+      - Logging
+      - Metrics Collection
+      - Health Checks
+      - Distributed Tracing
     - Problem Determination
     - Failure Handling
     - Deployment
