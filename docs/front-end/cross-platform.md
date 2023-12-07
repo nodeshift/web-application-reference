@@ -7,7 +7,7 @@ mobile devices (Android, iOS).
 
 Web applications are, by definition, cross-platform as they will run
 anywhere a browser runs. With the wide availability of browsers across
-platforms today, that means pretty much anywhere. 
+platforms today, that means pretty much anywhere.
 
 However, standard web applications running in a browser are not as
 integrated into a platform as a native application, may be limited with
@@ -38,10 +38,12 @@ Tools for building hybrid applications often either target desktop
 applications (Windows, MacOS and Linux) or Mobile (Android, iOS),
 with some tools targeting both.
 
-# Recommended Components
+## Recommended Components
+
 N/A
 
-# Guidance
+## Guidance
+
 The team has yet to find teams/projects within IBM or Red Hat
 that have developed cross-platform applications. So while some team
 members have experience in creating cross-platform applications
@@ -51,4 +53,3 @@ on experience within the team based on projects within Red Hat and IBM.
 This reflects that for the applications we develop, most often the team
 has seen either the use of a pure Web application which is accessible
 across platforms and/or the use of individual solutions for specific platforms.
-
