@@ -1,10 +1,5 @@
 # Styles
 
-**TODO**
-
-* inline vs. separate files?
-  * one-off styles?
-
 ## Recommended Components
 
 N/A
@@ -45,7 +40,6 @@ However, the team does prefer the use of the [Sass](https://sass-lang.com/).
 
 Many of the popular front-end CSS and javascript frameworks used to create application have these processors built in, so if you are using a framework, it is always recommended to use what that framework is using.
 
-
 ### General
 
 #### Units of Measurement
@@ -60,7 +54,7 @@ As mentioned earlier, if you are using a CSS framework, it is important to use w
 
 Make sure to use the `viewport` metatags width/height, which will be helpful for the gloabl container and absoulte positiong.  Here is an example `viewport` for a mobile application
 
-```
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 ```
 
@@ -68,8 +62,11 @@ Make sure to use the `viewport` metatags width/height, which will be helpful for
 
 Browser vendors would add prefixes to non-standard/new css properties for developers to experiment with.  The team recommends the use of the [autoprefixer](https://www.npmjs.com/package/autoprefixer) library, which is an industry standard.  While this might important when supporting older code, it is recommended to look at if and why you might need a prefix when creating new applicaitons.
 
-
 ### Additional Resources
 
 [Comparing Modern CSS Solutions](https://www.youtube.com/watch?v=CQuTF-bkOgc)
 
+### TODO
+
+* inline vs. separate files?
+  * one-off styles?
