@@ -34,9 +34,9 @@ include WebViews, [Chrome Custom Tabs](https://developer.chrome.com/docs/android
 and [Trusted Web Activities](https://developer.chrome.com/docs/android/trusted-web-activity/)
 although the latter two are for Android only.
 
-Tools for building hybrid applications often either target desktop
-applications (Windows, MacOS and Linux) or Mobile (Android, iOS),
-with some tools targeting both.
+There are also frameworks that enable cross-platform development of native applications using a single codebase.  These produce native applications that do not use WebViews.
+
+Tools for building hybrid applications often either target desktop (Windows, MacOS and Linux) and/or Mobile (Android, iOS).
 
 ## Recommended Components
 
