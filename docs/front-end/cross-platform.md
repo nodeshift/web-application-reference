@@ -44,10 +44,9 @@ N/A
 
 ## Guidance
 
-The team has yet to find teams/projects within IBM or Red Hat
-that have developed cross-platform applications. So while some team
+Some team
 members have experience in creating cross-platform applications
-in previous roles, we currently don’t have any guidance to share based
+in previous roles, but we currently don’t have any guidance to share based
 on experience within the team based on projects within Red Hat and IBM.
 
 This reflects that for the applications we develop, most often the team
