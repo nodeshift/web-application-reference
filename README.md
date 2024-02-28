@@ -63,7 +63,7 @@ The reference architecture covers the following components (currently a work in 
     - Offline
     - Local Storage
     - Authentication/Authorization
-    - [Cross Platform](https://github.com/nodeshift/web-application-reference/blog/main/docs/front-end/cross-platform.md)
+    - [Cross Platform](docs/front-end/cross-platform.md)
     - Polyfills
     - State management
     - Graphics, Visualization, Charts
