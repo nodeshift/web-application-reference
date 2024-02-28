@@ -44,8 +44,7 @@ N/A
 
 ## Guidance
 
-Some team
-members have experience in creating cross-platform applications
+Some team members have experience in creating cross-platform applications
 in previous roles, but we currently don’t have any guidance to share based
 on experience within the team based on projects within Red Hat and IBM.
 
