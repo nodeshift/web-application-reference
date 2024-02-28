@@ -25,7 +25,7 @@ browser support and features. Additionally, users must be taught how
 to install a PWA.
 
 If more integration is needed than a PWA can provide, a common option
-is to use a “hybrid application” which embeds a web application built
+is to use a hybrid application which embeds a web application built
 with standard Web technologies into a native application and
 provides a higher level of integration into the native platforms.
 
