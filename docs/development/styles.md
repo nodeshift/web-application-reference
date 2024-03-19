@@ -70,7 +70,6 @@ CSS methodologies are formal, documented systems for authoring CSS.  The aim of 
 
 * [Block, Element, Modifier(BEM)](https://getbem.com/) - component-based approach to web development. The idea behind it is to divide the user interface into independent blocks. This makes interface development easy and fast even with a complex UI, and it allows reuse of existing code without copying and pasting.
 
-
 ### Additional Resources
 
 [Comparing Modern CSS Solutions](https://www.youtube.com/watch?v=CQuTF-bkOgc)
