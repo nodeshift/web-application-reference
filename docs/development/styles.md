@@ -62,11 +62,17 @@ Make sure to use the `viewport` metatags width/height, which will be helpful for
 
 Browser vendors would add prefixes to non-standard/new css properties for developers to experiment with.  The team recommends the use of the [autoprefixer](https://www.npmjs.com/package/autoprefixer) library, which is an industry standard.  While this might important when supporting older code, it is recommended to look at if and why you might need a prefix when creating new applicaitons.
 
+Autoprefixer is a plugin for [PostCSS](https://github.com/postcss/postcss), a tool for transforing styles.  PostCSS is used by industry leaders and the Autoprefixer plugin is on of the most popular CSS tools.
+
+#### CSS Methodolgies
+
+CSS methodologies are formal, documented systems for authoring CSS.  The aim of a CSS methodology is to reduce the CSS footprint and help maintian large CSS codebases among developers.
+
+* [Block, Element, Modifier(BEM)](https://getbem.com/) - component-based approach to web development. The idea behind it is to divide the user interface into independent blocks. This makes interface development easy and fast even with a complex UI, and it allows reuse of existing code without copying and pasting.
+
+
 ### Additional Resources
 
 [Comparing Modern CSS Solutions](https://www.youtube.com/watch?v=CQuTF-bkOgc)
-
-### TODO
-
-* inline vs. separate files?
-  * one-off styles?
+[CSS Methodologies](https://github.com/awesome-css-group/awesome-css#naming-conventions--methodologies-bulb)
+[State Of CSS 2020 - Methodologies](https://2020.stateofcss.com/en-US/technologies/methodologies/)
