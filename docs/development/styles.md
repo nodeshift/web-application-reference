@@ -47,8 +47,8 @@ Many of the popular front-end CSS and javascript frameworks used to create appli
 The team thought that it was important to stick with one for a consistent UI and consistecy across the application.  Some helpful recommendations that came out of our discussion where:
 
 * rem - preferred for accesibilty and for fonts
-* borders - these could be in **px**
-* div tags - should be more percentage based
+* borders - these could be in **px** - decrotavie / doesn't scale well
+  * Borders are mostly decorative anyway, and using doesn't scale well when using something that are not pixels
 
 As mentioned earlier, if you are using a CSS framework, it is important to use what that framework is using.
 
@@ -69,6 +69,8 @@ Autoprefixer is a plugin for [PostCSS](https://github.com/postcss/postcss), a to
 CSS methodologies are formal, documented systems for authoring CSS.  The aim of a CSS methodology is to reduce the CSS footprint and help maintian large CSS codebases among developers.
 
 * [Block, Element, Modifier(BEM)](https://getbem.com/) - component-based approach to web development. The idea behind it is to divide the user interface into independent blocks. This makes interface development easy and fast even with a complex UI, and it allows reuse of existing code without copying and pasting.
+
+Most of the CSS frameworks employ some sort of CSS methodology and if you are using one it is important to follow whatever methodology that framework uses.
 
 ### Additional Resources
 
