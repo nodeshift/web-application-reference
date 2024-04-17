@@ -6,7 +6,7 @@ N/A
 
 ## Guidance
 
-During our discussions it became clear that there are multiple ways of styling and that there is a lot of choice, but there was one common idea that kept re-occuring.  If you are using a CSS framework, be sure to use what that framework is using.
+During our discussions it became clear that there are multiple ways of styling and that there is a lot of choice, but there was one common idea that kept re-occurring.  If you are using a CSS framework, be sure to use what that framework is using.
 
 ### CSS Frameworks
 
@@ -16,7 +16,7 @@ CSS frameworks are a great choice for developing applicaitons.  Some advantages 
 * customizable
 * consistent
 
-[Tailwind CSS](https://tailwindcss.com/) is a modern choice that the team has used.  Other recommendations that the team made are [Carbon](https://carbondesignsystem.com/) and [Patternfly](https://www.patternfly.org/) which are both IBM and Red Hat projects respectivly.
+[Tailwind CSS](https://tailwindcss.com/) is a modern choice that the team has used.  Other recommendations that the team made are [Carbon](https://carbondesignsystem.com/) and [Patternfly](https://www.patternfly.org/) which are both IBM and Red Hat projects respectively.
 
 It is also important that if you are using a front-end JavaScipt framework, the CSS framework should fit into it.
 
@@ -38,7 +38,7 @@ While preprocessors are still being used, built-in css properties and rules are 
 
 However, the team does prefer the use of the [Sass](https://sass-lang.com/).
 
-Many of the popular front-end CSS and javascript frameworks used to create application have these processors built in, so if you are using a framework, it is always recommended to use what that framework is using.
+Many of the popular front-end CSS and JavaScript frameworks used to create application have these processors built in, so if you are using a framework, it is always recommended to use what that framework is using.
 
 ### General
 
@@ -47,12 +47,12 @@ Many of the popular front-end CSS and javascript frameworks used to create appli
 The team thought that it was important to stick with one for a consistent UI and consistecy across the application.  Some helpful recommendations that came out of our discussion where:
 
 * rem - preferred for accesibilty and for fonts
-* borders - these could be in **px** - decrotavie / doesn't scale well
+* borders - these could be in **px** - decorative / doesn't scale well
   * Borders are mostly decorative anyway, and using doesn't scale well when using something that are not pixels
 
 As mentioned earlier, if you are using a CSS framework, it is important to use what that framework is using.
 
-Make sure to use the `viewport` metatags width/height, which will be helpful for the gloabl container and absoulte positiong.  Here is an example `viewport` for a mobile application
+Make sure to use the `viewport` metatags width/height, which will be helpful for the global container and absolute positiong.  Here is an example `viewport` for a mobile application
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1" />
