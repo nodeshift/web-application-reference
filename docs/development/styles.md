@@ -70,6 +70,8 @@ CSS methodologies are formal, documented systems for authoring CSS.  The aim of 
 
 * [Block, Element, Modifier(BEM)](https://getbem.com/) - component-based approach to web development. The idea behind it is to divide the user interface into independent blocks. This makes interface development easy and fast even with a complex UI, and it allows reuse of existing code without copying and pasting.
 
+* CSS-in-JS is another pattern which uses JavaScript to style components. [styled-components](https://github.com/styled-components/styled-components) and [Emotion](https://github.com/emotion-js/emotion) are some of the popular CSS-in-JS libraries in the React community.
+
 Most of the CSS frameworks employ some sort of CSS methodology and if you are using one it is important to follow whatever methodology that framework uses.
 
 ### Additional Resources
