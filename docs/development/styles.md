@@ -6,11 +6,11 @@ N/A
 
 ## Guidance
 
-During our discussions it became clear that there are multiple ways of styling and that there is a lot of choice, but there was one common idea that kept re-occurring.  If you are using a CSS framework, be sure to use what that framework is using.
+During our discussions it became clear that there are multiple ways of styling and that there is a lot of choice, but there was one common idea that kept recurring.  If you are using a CSS framework, be sure to use what that framework is using.
 
 ### CSS Frameworks
 
-CSS frameworks are a great choice for developing applicaitons.  Some advantages are:
+CSS frameworks are a great choice for developing applications.  Some advantages are:
 
 * Great for out-of-the-box prototyping
 * customizable
@@ -24,7 +24,7 @@ It is also important that if you are using a front-end JavaScipt framework, the 
 
 Since it is generally harder to design for a smaller screen, the team recommends a mobile first and responsive approach to an applications layout.  When defining css rules it is recommended to put the rules for mobile first followed by the rules for other layouts that your application might have.
 
-The use of [Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) allows you to apply CSS styles to your application using various characteristics, such as sceen resolution and orientation.  Media Queries will help with the responsive approach to writing applications as mentioned above.
+The use of [Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) allows you to apply CSS styles to your application using various characteristics, such as screen resolution and orientation.  Media Queries will help with the responsive approach to writing applications as mentioned above.
 
 Another way of making an application responsive is with either the Grid or Flex layouts.  The team is familiar with both Grid and Flex, while Grid is slightly prefered.  Depending on the situation, both can be used.
 
@@ -53,15 +53,15 @@ While the team doesn't make a recommendation on the linting rules, they do agree
 
 #### Units of Measurement
 
-The team thought that it was important to stick with one for a consistent UI and consistecy across the application.  Some helpful recommendations that came out of our discussion where:
+The team thought that it was important to stick with one for a consistent UI and consistency across the application.  Some helpful recommendations that came out of our discussion where:
 
-* rem - preferred for accesibilty and for fonts
+* rem - preferred for accessibility and for fonts
 * borders - these could be in **px** - decorative / doesn't scale well
   * Borders are mostly decorative anyway, and using doesn't scale well when using something that are not pixels
 
 As mentioned earlier, if you are using a CSS framework, it is important to use what that framework is using.
 
-Make sure to use the `viewport` metatags width/height, which will be helpful for the global container and absolute positiong.  Here is an example `viewport` for a mobile application
+Make sure to use the `viewport` metatags width/height, which will be helpful for the global container and absolute positioning.  Here is an example `viewport` for a mobile application
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -69,13 +69,13 @@ Make sure to use the `viewport` metatags width/height, which will be helpful for
 
 #### Vendor prefixes
 
-Browser vendors would add prefixes to non-standard/new css properties for developers to experiment with.  The team recommends the use of the [autoprefixer](https://www.npmjs.com/package/autoprefixer) library, which is an industry standard.  While this might important when supporting older code, it is recommended to look at if and why you might need a prefix when creating new applicaitons.
+Browser vendors would add prefixes to non-standard/new css properties for developers to experiment with.  The team recommends the use of the [autoprefixer](https://www.npmjs.com/package/autoprefixer) library, which is an industry standard.  While this might be important when supporting older code, it is recommended to look at if and why you might need a prefix when creating new applications.
 
 Autoprefixer is a plugin for [PostCSS](https://github.com/postcss/postcss), a tool for transforing styles.  PostCSS is used by industry leaders and the Autoprefixer plugin is on of the most popular CSS tools.
 
-#### CSS Methodolgies
+#### CSS Methodologies
 
-CSS methodologies are formal, documented systems for authoring CSS.  The aim of a CSS methodology is to reduce the CSS footprint and help maintian large CSS codebases among developers.
+CSS methodologies are formal, documented systems for authoring CSS.  The aim of a CSS methodology is to reduce the CSS footprint and help maintain large CSS codebases among developers.
 
 * [Block, Element, Modifier(BEM)](https://getbem.com/) - component-based approach to web development. The idea behind it is to divide the user interface into independent blocks. This makes interface development easy and fast even with a complex UI, and it allows reuse of existing code without copying and pasting.
 
