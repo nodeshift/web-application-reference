@@ -34,11 +34,20 @@ Of course, if you are using a CSS framework it is important to use whichever lay
 
 ### Preprocessors
 
-While preprocessors are still being used, built-in css properties and rules are now starting to deprecate the use of preprocessors.
+While preprocessors are still being used, built-in css properties and rules are now starting to deprecate the use of preprocessors.  It is also important to decide if the scope and scale of your project needs one.
 
 However, the team does prefer the use of the [Sass](https://sass-lang.com/).
 
+The team also agreed that it was important to be more CSS centric(native CSS features) even when using a preprocessor.  This was because the language is introducing more and more features, which will start to make these preprocessors deprecated.
+
 Many of the popular front-end CSS and JavaScript frameworks used to create application have these processors built in, so if you are using a framework, it is always recommended to use what that framework is using.
+
+### Linting
+
+Similar to how developers [lint their JavaScript code](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/development/code-consistency.md) for code consistency, it is equally important to lint our CSS code.  A module that the team has had success with is [stylint](https://www.npmjs.com/package/stylint).
+
+While the team doesn't make a recommendation on the linting rules, they do agree that a linter should be used and should be applied organization wide when applicable.
+
 
 ### General
 
