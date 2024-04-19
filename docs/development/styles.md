@@ -48,7 +48,6 @@ Similar to how developers [lint their JavaScript code](https://github.com/nodesh
 
 While the team doesn't make a recommendation on the linting rules, they do agree that a linter should be used and should be applied organization wide when applicable.
 
-
 ### General
 
 #### Units of Measurement
