@@ -26,7 +26,9 @@ Since it is generally harder to design for a smaller screen, the team recommends
 
 The use of [Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) allows you to apply CSS styles to your application using various characteristics, such as screen resolution and orientation.  Media Queries will help with the responsive approach to writing applications as mentioned above.
 
-Another way of making an application responsive is with either the Grid or Flex layouts.  The team is familiar with both Grid and Flex, while Grid is slightly prefered.  Depending on the situation, both can be used.
+Another way of making an application responsive is with either the [Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout) or [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) layout methods.  The team is familiar with both Grid and Flexbox, while Grid is slightly preferred.  Depending on the situation, both can be used.
+
+The most significant distinction between Grid and Flexbox, is that Grid is a two-dimensional layout method and Flexbox is a one-dimensional layout method.
 
 Whichever layout method is used, Grid or Flex, will go hand in hand with using Media Queries
 
