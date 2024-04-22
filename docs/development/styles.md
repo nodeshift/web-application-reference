@@ -38,7 +38,7 @@ While preprocessors are still being used, built-in css properties and rules are 
 
 However, the team does prefer the use of the [Sass](https://sass-lang.com/).
 
-The team also agreed that it was important to be more CSS centric(native CSS features) even when using a preprocessor.  This was because the language is introducing more and more features, which will start to make these preprocessors deprecated.
+The team also agreed that it was important to maximize use of native CSS features, even when using a preprocessor.  This is because the language is introducing more and more features, which will start to make these preprocessors deprecated.
 
 Many of the popular front-end CSS and JavaScript frameworks used to create application have these processors built in, so if you are using a framework, it is always recommended to use what that framework is using.
 
