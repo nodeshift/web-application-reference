@@ -59,7 +59,7 @@ Recommendations of manual accessibility testing tools:
 - [Wave](https://wave.webaim.org/)
 - [BrowserStack](https://www.browserstack.com/accessibility-testing)
 
-## Ways to make your site/ application more accessible 
+## High Level overview on ways to make your site/ application more accessible 
 
 - Images and alt attributes
 
@@ -67,12 +67,36 @@ Use the alt attribute when using images. Add a descriptive alternative text for 
 
 
 - Links and context
+
+Accessible hypertext links are very important aspects for accessible web pages and documents.
+Accessible links are not just helpful for people with disabilities, well-written link text descriptions enhances user experience for any user. Following are some high level guidelines that should be followed:
+
+1. Ensure concise, descriptive and meaningful anchor text
+2. Avoid capitalization all letters in links
+3. Avoid usage of URLs for link text, and limit use of redirects
+4. Avoid using the word "link" as part of the link text
+5. Avoid using tooltips/screentips to add additional information
+
 - Add Keyboard navigation 
+
+Create an accessible experience for keyboard users by making sure disabled users can access all interactive elements of your site/ app.
+
 - ARIA Landmarks and HTML Semantics
 
 ARIA landmarks are attributes that should be added to an element to define roles on the site. HTML semantic elements and ARIA landmarks help screen readers know where they are going, and assist to easily jump from one section to another. Landmarks can be added using the role attribute. Add ARIA attributes sparingly, and only when HTML does not already express the intended semantic. Example: no need to add `aria-disabled="true"` if the element already has a HTML5 disabled attribute.
 
 - Make Video and Multimedia Accessible
+
+A combination of things like choosing an accessible media player, adding captions, and using the right colors and font. Note to avoid accessibility barriers when planning, scripting, storyboarding, and recording your media.
+
 - Keep Contrast Sensitivity in Mind
+
+The color choices and the relationships between those hues can impact user experience drastically. If colors with not enough contrast are chosen, portions of the site/ app may appear hard to read and navigate for people with visual impairments. A rule of thumb would be to avoid color combinations that could be hard to distinguish from one another. The luminosity contrast ratio could be used to design with low contrast sensitivity in mind.
+
 - Control focus with tabindex, stylefocus
+
+Keyboard-only users should be able to perceive where focus is at all times and visible elements with focus should be viewable. 
+
 - Make transitions and animations accessible
+
+Users should be able to pause, stop, or hide moving content. Additionally, there should be options available for users to turn off motion animation 
