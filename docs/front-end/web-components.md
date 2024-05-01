@@ -1,5 +1,7 @@
 # Web Components
+
 The [WHATWG](https://html.spec.whatwg.org/multipage/custom-elements.html) and [WICG](https://github.com/WICG/webcomponents) maintain suite of web technologies and specifications including (but not limited to)
+
 - [Custom Elements](https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements)
 - [Shadow DOM](https://dom.spec.whatwg.org/#shadow-trees)
 - The [`<template>` element](https://html.spec.whatwg.org/multipage/scripting.html#the-template-element)
@@ -13,6 +15,7 @@ These are collectively referred to as "web components", and represent the browse
 Broadly speaking, every web component is a custom element - a specific, globally-recognized tag-name which becomes associated with a class extending HTMLElement in JavaScript. Web components can also make use of the related technologies.
  
 ## Recommended Components
+
 - [Lit](https://lit.dev) (for authoring components)
 - [Web Dev Server](https://modern-web.dev) / Web Test Runner (for unit tests and local dev)
 - [Custom Elements Manifest](https://github.com/webcomponents/custom-elements-manifest) (for ide support / docgen / codegen)
