@@ -15,16 +15,19 @@ Staying updated on the latest trends, tools, and advancements in accessibility i
 
 Before we understood on how to implement web accessibility, the teams at IBM & Red Hat first started with who is behind this initiative. There’s quite a few acronyms for the organizations, projects, and guidelines themselves, so let’s break those down first.
 
-Before our developers started to implement web accessibility, they looked into the communities that are behind this initiative. Diving through the resources, we observed there are a plethora of acronyms for various organizations, projects, and guidelines - so there’s a short summary on who sets the guidelines for web accessibility 
-* W3C – The World Wide Web consortium (W3C), the organization that sets standards for web accessibility compliance.
-* WAI – Web Accessibility Initiative (WAI) is W3C’s initiative for creating the guidelines.
-* WCAG – The actual accessibility guidelines are the Web Content Accessibility Guidelines (WCAG).
+Before our developers started to implement web accessibility, they looked into the communities that are behind this initiative. Diving through the resources, we observed there are a plethora of acronyms for various organizations, projects, and guidelines - so there’s a short summary on who sets the guidelines for web accessibility
 
-There are three levels of web accessibility that teams can aim to achieve. Following levels exist as a part of the guidelines and each level covers guidelines from previous levels before advancing to the next level. 
+- W3C: The World Wide Web consortium (W3C), the organization that sets standards for web accessibility compliance.
 
-* A Level: The easiest level of difficulty to implement with least guidelines to follow. It is the baseline for all websites to adhere by.  
-* AA Level: This live includes A-level guidelines, and several other detailed design-specific guidelines. It is mid-level of difficulty to implement.
-* AAA Level: This level includes all previous levels’ guidelines in addition to advanced details with respect tp animations and content.
+- WAI: Web Accessibility Initiative (WAI) is W3C’s initiative for creating the guidelines.
+
+- WCAG: The actual accessibility guidelines are the Web Content Accessibility Guidelines (WCAG).
+
+There are three levels of web accessibility that teams can aim to achieve. Following levels exist as a part of the guidelines and each level covers guidelines from previous levels before advancing to the next level.
+
+- A Level: The easiest level of difficulty to implement with least guidelines to follow. It is the baseline for all websites to adhere by.  
+- AA Level: This live includes A-level guidelines, and several other detailed design-specific guidelines. It is mid-level of difficulty to implement.
+- AAA Level: This level includes all previous levels’ guidelines in addition to advanced details with respect tp animations and content.
 
 In our product development experiences at IBM, we’ve found that to be fully compliant teams will need to meet all three standards: WCAG 2.1, US Section 508, and EU’s EN 301 549 standards. Links to [IBM accessibility requirements](https://www.ibm.com/able/requirements/requirements/), [Red Hat  accessibility requirements](https://www.redhat.com/en/about/digital-accessibility)
 
@@ -94,7 +97,7 @@ Accessible links are not just helpful for people with disabilities, well-written
 
 ### Add Keyboard navigation
 
-Create an accessible experience for keyboard users by making sure disabled users can access all interactive elements of your site/ app. Avoid attaching event listeners to non-interactive elements like <div> whenever possible. Use interactive elements like <button> and <a> instead.
+Create an accessible experience for keyboard users by making sure disabled users can access all interactive elements of your site/ app. Avoid attaching event listeners to non-interactive elements like `<div>` whenever possible. Use interactive elements like `<button>` and `<a>` instead.
 
 ### ARIA Landmarks and HTML Semantics
 
