@@ -103,6 +103,8 @@ Create an accessible experience for keyboard users by making sure disabled users
 
 ARIA landmarks are attributes that should be added to an element to define roles on the site. HTML semantic elements and ARIA landmarks help screen readers know where they are going, and assist to easily jump from one section to another. Landmarks can be added using the role attribute. Add ARIA attributes sparingly, and only when HTML does not already express the intended semantic. Example: no need to add `aria-disabled="true"` if the element already has a HTML5 disabled attribute.
 
+As a user there are a bunch of different ways to mark up your content. To structure your content, there are [100+ semantically meaningful elements](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantic_elements) available in addition to the ability to create custom elements. 
+
 ### Make Video and Multimedia Accessible
 
 A combination of things like choosing an accessible media player, adding captions, and using the right colors and font. Note to avoid accessibility barriers when planning, scripting, storyboarding, and recording your media.
