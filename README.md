@@ -60,7 +60,7 @@ The reference architecture covers the following components (currently a work in 
   - Front End
     - Front End Frameworks
     - Web Components
-    - Offline
+    - [Offline](docs/front-end/offline.md)
     - Local Storage
     - Authentication/Authorization
     - [Cross Platform](docs/front-end/cross-platform.md)
