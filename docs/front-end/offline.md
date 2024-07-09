@@ -2,16 +2,16 @@
 
 Offline could mean mulitple things in the context of Web Applications and it is important to be prepared for those different scenarios.
 
-  * No Network Connectivity - Truly Offline
-  * Limited/Spotty Network Connectivity - Also Known as Lie-Fi
+* No Network Connectivity - Truly Offline
+* Limited/Spotty Network Connectivity - Also Known as Lie-Fi
 
 Having no network connectivity is usually what is associated with the term offline, but having limited connectivity(Lie-Fi) is just as important to plan for.
 
-### Offline options for Web Apps
+## Offline options for Web Apps
 
 For Web Apps, there is really only one option when planning for an Offline Application and that is Service Workers.
 
-#### Service Workers
+### Service Workers
 
 Service workers essentially act as a proxy that sits between a web application, the browser, and the network. They allow a developer to intercept network requests, which can allow then to check the networks availability and load the application accordingly.
 
@@ -21,7 +21,7 @@ Unrealted to offline, but they will also allow access to push notifications for 
 
 All major browers support the use of Service Workers, including Mobile Safari.  There is a know issue where service workers are [not supported on FireFox while in private mode](https://bugzilla.mozilla.org/show_bug.cgi?id=1320796)
 
-#### navigator object
+### navigator object
 
 There are two properties on the Navigator object that can also be useful with Offline Applications:
 
@@ -39,8 +39,7 @@ N/A
 
 While discussing this topic with the other teams within the organizations, it was clear that we were not creating applications to be used offline, so the guidance below is a more community approach.
 
-
-#### Community Guidance
+### Community Guidance
 
 The communnity has been recommending an offline first approach when creating Web Applications by using Service Workers.  _Note that Service workers can only be used with a HTTPS connection_
 
@@ -52,7 +51,7 @@ The second is the load just the header of the application, then load the rest of
 
 Both approaches have a similar concept of getting something to the user quickly while the rest is being loaded in the background.
 
-#### The Cache
+### The Cache
 
 What things to cache are dependant on the application, but generally, you would want to cache any HTML, css and javascript files.
 
@@ -60,9 +59,8 @@ To store files in a Service Worker, [the cache interface is used](https://develo
 
 As an alternative to the Service Worker cache, developers can also use [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) .  It should be noted that localStorage can not be used in a service worker becuase it is synchronous.
 
-
 ## Resources
 
-* https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API
-* https://developer.mozilla.org/en-US/docs/Web/API/Navigator/connection
-* https://developer.mozilla.org/en-US/docs/Web/API/Navigator/onLine#Specification
+* [Service Worker API](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
+* [navigator.connection](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/connection)
+* [navigator.online](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/onLine#Specification)
