@@ -12,3 +12,24 @@ Although "slow" and "fast" are very subjective per user, studies in human-comput
 - Above 3 seconds, 70% of the people will start avoiding the UI if they can.
 - Over 5 seconds, your application is considered 'broken' or unusable.
 
+## Important metrics to measure:
+
+As a performance minded team, our teams regularly incorporate performance assessment in order to measure how a site or a web app is performing from an user’s perspective.
+
+**First paint (FP)**: This metric measures the time when the navigation happens from the browser to the first pixels on the screen. It is usually when the page first starts rendering, an example could be an empty box with no content or something as subtle and uninformative as a change in the background color.
+
+**First Contentful Paint (FCP)**:  This metric is the measurement of time when a page starts loading (DOM getting loading on the page) to when any part of the page's partial content gets rendered on the screen. Usually SVGs, images, canvas render, text etc. As an user it can be thought as the total time taken from the beginning of your page load to the time any content gets rendered on the screen.
+
+**First Meaningful paint (FMP)**: This metric is the measure of amount of time it takes for the first useful or meaningful (for the user) element to be displayed on the screen. Usually the time at which an user can notice and perceive the primary content of the visible page. 
+
+**Largest Contentful Paint (LCP)**: This metric is the measure of time it takes for a site/ app to render the element containing largest amount of content. It is part of the three Core Web Vitals that Google uses to measure a page’s user experience. The other two being:
+    **First Input Delay (FID)**: The measurement of time it takes for the visitor to perform their first action (example: clicking a link, pr button) and when the site responds. 
+    **Cumulative Layout Shift (CLS)**: This metric pertains to the extent to which a page’s layout shifts while it loads. This is important because you wouldn’t want page elements to shift while an user is interacting with the user interface.
+
+**Interaction to Next Paint (INP)**: This metric measures or observes the latency of every tap, click, or keyboard interaction that happens on the page. The amount of elapsed time between a user interaction like a click or key press and the next time the user sees a visual update on the page is factored into the calculation.
+
+**Total Blocking Time (TBT)**: This metric measures the total amount of time your site was blocked thereby preventing the user from interacting with the sections of your site or page.
+
+**Cumulative Layout Shift (CLS)**: This metric focuses on measuring visual stability. It is the cumulative score of all unexpected layout shifts that occur when the page starts loading and when its lifecycle state changes.
+
+**Time to First Byte (TTFB)**: This metric measures the time it takes for the network to respond to a user request with the first byte of a resource. Its the time taken between the request for a resource and when the first byte of a response arrives client side.
