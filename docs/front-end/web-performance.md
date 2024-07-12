@@ -33,3 +33,25 @@ As a performance minded team, our teams regularly incorporate performance assess
 **Cumulative Layout Shift (CLS)**: This metric focuses on measuring visual stability. It is the cumulative score of all unexpected layout shifts that occur when the page starts loading and when its lifecycle state changes.
 
 **Time to First Byte (TTFB)**: This metric measures the time it takes for the network to respond to a user request with the first byte of a resource. Its the time taken between the request for a resource and when the first byte of a response arrives client side.
+
+## Techniques for Improving Web Performance:
+
+* Optimize server performance and response times
+    * Reducing processing time on the server
+    * Optimizing database level queries, rewriting slow queries
+    * Implementing server-level caching mechanism
+
+* Using a content delivery network (CDN)
+
+* Optimize Download Size Assets
+    * Optimize web fonts
+    * Optimize images plus lazy load images and video
+    * Optimize CSS and JavaScript. Eliminate render-blocking scripts, and defer these scripts until other elements finish loading
+    * Utilize image, video and text compression
+
+* Optimize resource priorities
+    * Avoid unintentional loading of resources
+
+* Implement Caching
+    * Cache images, CSS files, or JavaScript files
+    * Enable cache control headers on your web server
