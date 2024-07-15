@@ -41,6 +41,7 @@ Sites that perform poorly end up driving users away whereas sites that load quic
 **Code**:
     **Page Weight**: Render blocking, broken and uncompressed JavaScript and CSS files cause significant dips in performance. If the page is not optimized, and we have heavy JS scripts loading right at the start it will take longer for the browser to download it on client side. 
     **File Types & Images size**: A general rule of thumb is that the larger your file sizes are and the more files you have to load on a page/ website, the longer it will take to load in the browser. Minification of code and optimizing image formats and sizes have worked well in our experience to alleviate these issues. It is also important to serve scaled-down images for mobile devices to reduce data consumption in turn improving load times. The size, number and file type play a vital role in website performance in general. 
+    **Excessive redirects**: A plethora of redirects could be detrimental to a site's performance adding latency to the overall page load time. The impact will be seen clearly in the Time to First Byte (TTFB).
 
 **Not leveraging browser caching**:
     **Network conditions / Latency**: The amount of time it takes to transfer information over the network from the client to the server can directly impact performance. CDN or network issues between source and end user end up slowing down the site speed. Furthermore, bottle necked outbound connections from the site itself and if the site is fetching data from multiple sources result in performance degradation. Bandwidth limitations could directly affect the speed as well. 
@@ -49,8 +50,7 @@ Sites that perform poorly end up driving users away whereas sites that load quic
 
 ## Techniques for Improving Web Performance:
 
-During our experiences, we have incorporated 
-This can serve as a checklist before releasing or deploying code out to production environments 
+During our experiences, we have incorporated some techniques to improve web performance in our applications. This can serve as a checklist before releasing or deploying code out to production environments 
 
 * Optimize server performance and response times
     * Reducing processing time on the server
@@ -71,3 +71,32 @@ This can serve as a checklist before releasing or deploying code out to producti
 * Implement Caching
     * Cache images, CSS files, or JavaScript files
     * Enable cache control headers on your web server
+
+## Setting performance budgets
+
+During our experiences, our teams have learnt that investing time in using performance budgets goes a long way in preventing regressions. Web performance budget refers to a threshold or measurable limits or goals that teams outline for the metrics that matter the most. Once set, monitoring tools can be configured accordingly to send alerts passively, or break the build actively once the allocated budgets are violated. These set of limits imposed on metrics are very crucial in achieving business goals effectively. Adoption of a disciplined approach like this in our organizations has benefitted software teams immensely. 
+
+The key metric KPIs used for web performance budgeting can be classified into the following categories: 
+- Rule based metrics
+- Time based metrics
+- Quantity based metrics
+- Custom metrics
+
+Development teams at IBM and RedHat have recommended the starting with a Minimum Viable Performance Budget. Some examples of metrics could be the following:
+- Total page size
+- Total number of HTTP requests
+- Page load time on mobile networks
+- First Contentful Paint (FCP) 
+- Long Contentful Paint (LCP)
+- Total Blocking Time (TBT)
+- Total JavaScript Size in Bytes
+
+As you try to refine your target budgets, performancebudget.io is a great resource offering visual aid presets for different network speeds.
+
+## Tools 
+Integrating tools in day to day development workflows will simplify the way developers approach web performance. Wiring a tool with the performance budgets or even alerting in your CI/CD process can assist as a guide to measure speed, prioritize various features and optimizations. 
+
+[Webpack performance features](https://webpack.js.org/configuration/performance/)
+[bundlesize](https://github.com/siddharthkp/bundlesize)
+[Lighthouse CI](https://github.com/GoogleChrome/lighthouse-ci)
+
