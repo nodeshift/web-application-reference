@@ -34,7 +34,23 @@ As a performance minded team, our teams regularly incorporate performance assess
 
 **Time to First Byte (TTFB)**: This metric measures the time it takes for the network to respond to a user request with the first byte of a resource. Its the time taken between the request for a resource and when the first byte of a response arrives client side.
 
+## Factors Affecting Web Performance
+
+Sites that perform poorly end up driving users away whereas sites that load quickly receive more traffic and result in better conversion rates. Our development teams have quantified the factors into three high level categories: Code, Network conditions, and Hosting/ location. Following are some key factors that affect web performance.
+
+**Code**:
+    **Page Weight**: Render blocking, broken and uncompressed JavaScript and CSS files cause significant dips in performance. If the page is not optimized, and we have heavy JS scripts loading right at the start it will take longer for the browser to download it on client side. 
+    **File Types & Images size**: A general rule of thumb is that the larger your file sizes are and the more files you have to load on a page/ website, the longer it will take to load in the browser. Minification of code and optimizing image formats and sizes have worked well in our experience to alleviate these issues. It is also important to serve scaled-down images for mobile devices to reduce data consumption in turn improving load times. The size, number and file type play a vital role in website performance in general. 
+
+**Not leveraging browser caching**:
+    **Network conditions / Latency**: The amount of time it takes to transfer information over the network from the client to the server can directly impact performance. CDN or network issues between source and end user end up slowing down the site speed. Furthermore, bottle necked outbound connections from the site itself and if the site is fetching data from multiple sources result in performance degradation. Bandwidth limitations could directly affect the speed as well. 
+    **Server/ Hosting**:Server capacity bottlenecks like concurrent connections or certain threads limitations or other tiers bottlenecks can also have a major impact on the speed of the site. 
+    If the web host doesn’t offer good performance at the server level, it would directly result in slower server response times.
+
 ## Techniques for Improving Web Performance:
+
+During our experiences, we have incorporated 
+This can serve as a checklist before releasing or deploying code out to production environments 
 
 * Optimize server performance and response times
     * Reducing processing time on the server
