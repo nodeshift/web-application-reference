@@ -100,3 +100,8 @@ Integrating tools in day to day development workflows will simplify the way deve
 [bundlesize](https://github.com/siddharthkp/bundlesize)
 [Lighthouse CI](https://github.com/GoogleChrome/lighthouse-ci)
 
+With a plethora of tools available, it’s difficult to choose the right solution for your development teams. Through our developer experiences, we’ve noted that every tool shows different results based on the desired objective. Our recommended approach is to use a variety of tools to get a comprehensive overview of your site or application performance. Validating performance on different devices, locations, and browsers will be a good first step in forming a baseline for important KPIs to measure.
+
+At the bare minimum every developer should use the dev tools to find the biggest blockers & heavy files. Chrome Dev Tools > Network Tab. There is also a Lighthouse Tab that can be used to run in Chrome dev tools. Make sure to use it in incognito with no extensions installed.
+
+Various teams at IBM and RedHat have identified the following tools that can be leveraged in the development workflows. [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview), [PageSpeed Insights](https://pagespeed.web.dev/), [WebPageTest](https://www.webpagetest.org/), [CrUX](https://developer.chrome.com/docs/crux), [Sitespeed.io](https://www.sitespeed.io/), [SpeedCurve](https://www.speedcurve.com/), [Calibre](https://calibreapp.com/), [new relic](https://newrelic.com/), [boomerang](https://github.com/akamai/boomerang), [batchspeed](https://batchspeed.com.atlaq.com/), [GTmetrix](https://gtmetrix.com/), [pingdom](https://www.pingdom.com/), [SpeedMonitor.io](https://speedmonitor.io/) are some of the widely used tools in the web engineering spectrum.
