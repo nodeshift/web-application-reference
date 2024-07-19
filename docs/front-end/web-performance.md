@@ -93,7 +93,7 @@ Development teams at IBM and RedHat have recommended the starting with a Minimum
 - Total Blocking Time (TBT)
 - Total JavaScript Size in Bytes
 
-As you try to refine your target budgets, performancebudget.io is a great resource offering visual aid presets for different network speeds.
+As you try to refine your target budgets, [performancebudget.io](https://www.performancebudget.io/) is a great resource offering visual aid presets for different network speeds.
 
 ## Tools
 
@@ -107,4 +107,4 @@ With a plethora of tools available, it’s difficult to choose the right solutio
 
 At the bare minimum every developer should use the dev tools to find the biggest blockers & heavy files. Chrome Dev Tools > Network Tab. There is also a Lighthouse Tab that can be used to run in Chrome dev tools. Make sure to use it in incognito with no extensions installed.
 
-Various teams at IBM and RedHat have identified the following tools that can be leveraged in the development workflows. [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview), [PageSpeed Insights](https://pagespeed.web.dev/), [WebPageTest](https://www.webpagetest.org/), [CrUX](https://developer.chrome.com/docs/crux), [Sitespeed.io](https://www.sitespeed.io/), [SpeedCurve](https://www.speedcurve.com/), [Calibre](https://calibreapp.com/), [new relic](https://newrelic.com/), [boomerang](https://github.com/akamai/boomerang), [batchspeed](https://batchspeed.com.atlaq.com/), [GTmetrix](https://gtmetrix.com/), [pingdom](https://www.pingdom.com/), [SpeedMonitor.io](https://speedmonitor.io/) are some of the widely used tools in the web engineering spectrum.
+Various teams at IBM and Red Hat have identified the following tools that can be leveraged in the development workflows. [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview), [PageSpeed Insights](https://pagespeed.web.dev/), [WebPageTest](https://www.webpagetest.org/), [CrUX](https://developer.chrome.com/docs/crux), [Sitespeed.io](https://www.sitespeed.io/), [SpeedCurve](https://www.speedcurve.com/), [Calibre](https://calibreapp.com/), [new relic](https://newrelic.com/), [boomerang](https://github.com/akamai/boomerang), [batchspeed](https://batchspeed.com.atlaq.com/), [GTmetrix](https://gtmetrix.com/), [pingdom](https://www.pingdom.com/), [SpeedMonitor.io](https://speedmonitor.io/) are some of the widely used tools in the web engineering spectrum.
