@@ -1,6 +1,6 @@
 # Offline
 
-Offline could mean mulitple things in the context of Web Applications and it is important to be prepared for those different scenarios.
+Offline could mean multiple things in the context of Web Applications and it is important to be prepared for those different scenarios.
 
 * No Network Connectivity - Truly Offline
 * Limited/Spotty Network Connectivity - Also Known as Lie-Fi
@@ -17,7 +17,7 @@ Service workers essentially act as a proxy that sits between a web application, 
 
 This will allow a web application developer to store the html, css, and js files into a cache in the browser, which can then be loaded from the Service Worker.
 
-Unrealted to offline, but they will also allow access to push notifications for the web.
+Unrelated to offline, but they will also allow access to push notifications for the web.
 
 All major browers support the use of Service Workers, including Mobile Safari.  There is a know issue where service workers are [not supported on FireFox while in private mode](https://bugzilla.mozilla.org/show_bug.cgi?id=1320796)
 
