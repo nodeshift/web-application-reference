@@ -1,8 +1,8 @@
 # Web Performance
 
-In today’s fast paced digital age, first impressions are everything. The speed at which user experiences are perceived on a user’s end are very crucial for conversion rates and user retention. In our development experiences, we have observed web performance to be one of the most important aspects of building a successful site or a web application. If a webapp or a site has poor performance, it tends to provide a negative user experience thereby impacting in lost business, customers or users. On the other hand, a higher-performance and more responsive app leads to a better user experience which is key in gaining and keeping users. Our prior digital experiences have confirmed that web application performance can directly influence revenue, time spent on the site, page views, search traffic, and user retention. 
+In today’s fast paced digital age, first impressions are everything. The speed at which user experiences are perceived on a user’s end are very crucial for conversion rates and user retention. In our development experiences, we have observed web performance to be one of the most important aspects of building a successful site or a web application. If a webapp or a site has poor performance, it tends to provide a negative user experience thereby impacting in lost business, customers or users. On the other hand, a higher-performance and more responsive app leads to a better user experience which is key in gaining and keeping users. Our prior digital experiences have confirmed that web application performance can directly influence revenue, time spent on the site, page views, search traffic, and user retention.
 
-Web Performance can be divided into three primary aspects: server-side, client-side and network related performance. Each category has it's own factors that can impact performance in it's own manner, as well as techniques and strategies to improve it. 
+Web Performance can be divided into three primary aspects: server-side, client-side and network related performance. Each category has it's own factors that can impact performance in it's own manner, as well as techniques and strategies to improve it.
 
 Developers at IBM and Red Hat have incorporated a Web Performance Culture that is focussed on prioritizing speed, visual stability and efficiency. A combination of these factors helps alleviating bounce rates, improving conversions, and in turn enhancing user satisfaction. From our own experiences, involves collaborative development at the intersection of content management, frontend, backend and the network layer. Based on the research done at IBM and Red Hat and reviewing the discussions of the W3C Web Performance Working Group, we’ve summarized the important metrics to measure below.
 
@@ -45,18 +45,18 @@ Sites that perform poorly end up driving users away whereas sites that load quic
 **Server Side Issues**
     **Server Response Time & Resources**: Performance is hampered by response time, and database performance. The response time is the time it takes for the server to process request, and send a response.
     **Server Resources**: Insufficient server resources (CPU or memory) can also add to delays.
-    **Database performance**: Slow performing queries or poorly optimized databases can significantly slow down page load times. 
+    **Database performance**: Slow performing queries or poorly optimized databases can significantly slow down page load times.
 
 ### Client-Side
 
-**Code**: 
+**Code**:
     **Page Weight**: Render blocking, broken and uncompressed JavaScript and CSS files cause significant dips in performance. If the page is not optimized, and we have heavy JS scripts loading right at the start it will take longer for the browser to download it on client side. External third party scripts can also introduce performance overhead.
     **File Types & Images size**: A general rule of thumb is that the larger your file sizes are and the more files you have to load on a page/ website, the longer it will take to load in the browser. Minification of code and optimizing image formats and sizes have worked well in our experience to alleviate these issues. It is also important to serve scaled-down images for mobile devices to reduce data consumption in turn improving load times. The size, number and file type play a vital role in website performance in general.
     **Excessive redirects**: A plethora of redirects could be detrimental to a site's performance adding latency to the overall page load time. The impact will be seen clearly in the Time to First Byte (TTFB).
 
 ### Network Related
 
-**Not leveraging browser caching**: 
+**Not leveraging browser caching**:
     **Network conditions / Latency**: The amount of time it takes to transfer information over the network from the client to the server can directly impact performance. CDN or network issues between source and end user end up slowing down the site speed. Furthermore, bottle necked outbound connections from the site itself and if the site is fetching data from multiple sources result in performance degradation. Bandwidth limitations could directly affect the speed as well.
     **Server/ Hosting**:Server capacity bottlenecks like concurrent connections or certain threads limitations or other tiers bottlenecks can also have a major impact on the speed of the site.
     If the web host doesn’t offer good performance at the server level, it would directly result in slower server response times.
@@ -65,7 +65,8 @@ Sites that perform poorly end up driving users away whereas sites that load quic
 
 During our experiences, we have incorporated some techniques to improve web performance in our applications. This can serve as a checklist before releasing or deploying code out to production environments
 
-### Server-Side
+### Techniques to improve Server-Side performance
+
 - Optimize server performance and response times
 - Reducing processing time on the server
 - Optimizing database level queries, rewriting slow queries. Look at optimizing database design.
@@ -75,7 +76,7 @@ During our experiences, we have incorporated some techniques to improve web perf
 - Profile server side code
 - Load Balancing
 
-### Client-Side
+### Techniques to Client-Side performance
 
 - Optimize Download Size Assets
   - Optimize web fonts
@@ -87,7 +88,7 @@ During our experiences, we have incorporated some techniques to improve web perf
   - Cache images, CSS files, or JavaScript files
   - Enable cache control headers on your web server
 
-### Network Related
+### Techniques to improve Network Related performance
 
 - Optimize resource priorities
   - Avoid unintentional loading of resources
@@ -95,7 +96,7 @@ During our experiences, we have incorporated some techniques to improve web perf
 - Optimize DNS settings
   - Preconnect and DNS prefetching to reduce time spent on DNS lookups and TCP handshakes.
 
-At times, it might get tricky to integrate these strategies into their own category. Therefore focusing on these techniques and strategies as a cohesive medium will be useful in significantly improving web performance across the server, client and network levels. 
+At times, it might get tricky to integrate these strategies into their own category. Therefore focusing on these techniques and strategies as a cohesive medium will be useful in significantly improving web performance across the server, client and network levels.
 
 ## Setting performance budgets
 
