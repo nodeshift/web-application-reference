@@ -101,7 +101,7 @@ The reference architecture covers the following components (currently a work in 
     - [Accessibility](docs/front-end/web-accessibility.md)
     - Project layout
     - Rendering
-    - Performance
+    - [Performance](docs/front-end/web-performance.md)
     - Security
 - Operations
   - Common
