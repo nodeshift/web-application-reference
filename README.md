@@ -97,7 +97,7 @@ The reference architecture covers the following components (currently a work in 
     - Typical Development Workflows
     - Build tools
     - Back end communication
-    - Styles
+    - [Styles](docs/development/styles.md)
     - [Accessibility](docs/front-end/web-accessibility.md)
     - Project layout
     - Rendering
