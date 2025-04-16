@@ -59,8 +59,8 @@ The reference architecture covers the following components (currently a work in 
     - [Transactions_handling](https://github.com/nodeshift/nodejs-reference-architecture/blob/main/docs/functional-components/transaction-handling.md)
   - Front End
     - Front End Frameworks
-    - Web Components
     - [Offline](docs/front-end/offline.md)
+    - [Web Components](docs/front-end/web-components.md)
     - Local Storage
     - Authentication/Authorization
     - [Cross Platform](docs/front-end/cross-platform.md)
